@@ -1,6 +1,6 @@
 #Webcam daemon for OctoPrint
 
-Install OctoPrint as usual https://github.com/foosel/OctoPrint/wiki/Setup-on-a-Raspberry-Pi-running-Raspbian making sure to stick to the directory names outlined in the instructions.
+Install OctoPrint and mjpeg streamer as usual https://github.com/foosel/OctoPrint/wiki/Setup-on-a-Raspberry-Pi-running-Raspbian making sure to stick to the directory names outlined in the instructions.
 
 Then to create the auto start daemon for mjpeg-streamer, clone the repository:
 
