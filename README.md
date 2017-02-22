@@ -11,11 +11,11 @@ Then to create the auto start daemon for mjpeg-streamer, clone the repository:
 and copy the files to their relevant locations, and setting them to be executable:
 
     sudo cp ./etc/default/webcamd /etc/default/webcamd
-    sudo update-rc.d webcamd defaults
     sudo cp ./etc/init.d/webcamd /etc/init.d/webcamd
     sudo chmod +x /etc/init.d/webcamd
     sudo cp ./bin/webcamd /bin/webcamd
     sudo chmod +x /bin/webcamd
+    sudo update-rc.d webcamd defaults
     
 Once done, the contents of this directory can be removed if one wishes, or kept around for safe keeping.
 
